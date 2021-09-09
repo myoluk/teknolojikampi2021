@@ -86,6 +86,5 @@ if (pkgArg):
 # Script argümansız çağrılmış ise
 else:
 	cmd = "dpkg -l | wc -l"
-	p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-	stdoutdata, stderrdata = p.communicate()
-	os.system('echo "Kurulu paket sayısı: ' + str(stdoutdata) + '"')
+	outCmd, errCmd = cmdRun(cmd)
+	os.system('echo "Kurulu paket sayısı: ' + str(outCmd) + '"')
