@@ -24,3 +24,24 @@ Bir linux sunucu üzerinde çalıştırılacak **tercihen** python scripti (yapa
 -  bash 
   -  dpkg komutu
   -  apt komutu
+
+---
+# Çalıştırma
+```sh
+python3 script.py
+```
+```sh
+python3 script.py <paket_adı>
+```
+> python3 script.py cowsay
+
+# Ekran Görüntüleri
+
+- Genel Sorgu (Sistemdeki paket sayısı):
+![Genel Sorgu](https://raw.githubusercontent.com/myoluk/teknolojikampi2021/main/ss/genel-sorgu.jpg)
+
+- Paket Sorgu 1 (Kurulu olan paket):
+![Paket Sorgu 1](https://raw.githubusercontent.com/myoluk/teknolojikampi2021/main/ss/paket-sorgu-1.jpg)
+
+- Paket Sorgu 2 (Kurulu olmayan paket):
+![Paket Sorgu 2](https://raw.githubusercontent.com/myoluk/teknolojikampi2021/main/ss/paket-sorgu-2.jpg)
