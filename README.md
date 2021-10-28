@@ -26,7 +26,7 @@ Bir linux sunucu üzerinde çalıştırılacak **tercihen** python scripti (yapa
   -  apt komutu
 
 ---
-# Çalıştırma
+# Kullanım
 ```sh
 python3 script.py
 ```
